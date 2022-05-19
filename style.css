@@ -76,7 +76,7 @@
 .card:hover{
     transform: scale(1.05);
     cursor: pointer;
-    box-shadow: 0 0 3px #008000;
+    border : 1px solid #008000;
 }
 
 /* social media icons styling */
