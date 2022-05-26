@@ -6,7 +6,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/home.jpg');
+    background: url('images/bigimage.jpg');
     background-size:cover;
     position:relative;
 }
@@ -15,7 +15,7 @@
     font-size: 4.5rem;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .hero-text {
     text-align: center;
@@ -27,7 +27,7 @@
 }
 
 .imageAboutPage{
-    height: 320px;
+    height: 20rem;
     max-width: 100%;
     object-fit: contain;
  
@@ -40,7 +40,7 @@
 } */
 
 .card-img-top {
-    height: 150px;
+    height: 9.4rem;
     object-fit: contain; 
 }
 
@@ -54,11 +54,11 @@
 
 /* services section css */
 .servicesText.card {
-    height: 280px;
+    height: 17.5rem;
     cursor: pointer;
   }
 .servicesIcon {
-    font-size: 36px;
+    font-size: 2.25rem;
     text-align: center;
     width: 100%;
 }
@@ -100,15 +100,22 @@
 @media screen and (max-width: 770px){
 
 .hero_title {
-font-size: 32px;
+    font-size: 2.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
 }
 .form-control {
-margin-top: 25px;
+    margin-top: 1.5rem;
 }
 }
 
 @media screen and (max-width: 1020px) {
+
+.imageAboutPage{ 
+    margin-bottom: 1.5rem;    
+}    
 .form-control {
-margin-top: 25px;    
+    margin-top: 1.5rem;    
 }    
 }
