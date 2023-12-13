@@ -85,7 +85,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-codepen:hover, .fa-github:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover,.fa-codepen:hover,.fa-github:hover {
     color: #008000;
 }
 .fab {
