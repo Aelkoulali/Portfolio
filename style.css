@@ -33,7 +33,13 @@
     object-fit: contain;
  
 }
+ul {
+    list-style-type: none;
+}
 
+.fa-solid {
+    margin-right: 10px;
+}
 /* spacing on all sections */
 /* #À Propos de Moi, #services, #portfolio, #contact {
     margin-top: 4rem;
