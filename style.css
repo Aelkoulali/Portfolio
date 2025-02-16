@@ -108,7 +108,7 @@ ul {
 
 /* footer styling */
 #footer {
-    background-color: rgb(0, 89, 255);
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
     text-align: center;
 }
 
