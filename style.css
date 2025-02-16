@@ -78,18 +78,18 @@ ul {
 }
 
 .card:hover .servicesIcon {
-    color: #008000;
+    color: navy;
 }
 
 .servicesText:hover {
-    border: 2px solid #008000;
+    border: 2px solid navy;
 }
 
 /* card*/
 .card:hover{
     transform: scale(1.05);
     cursor: pointer;
-    border : 2px solid #008000;
+    border : 2px solid navy;
 }
 
 /* social media icons styling */
@@ -99,7 +99,7 @@ ul {
 }
 
 .fa-linkedin:hover,.fa-codepen:hover,.fa-github:hover, .fa-x-twitter:hover {
-    color: #008000;
+    color: black;
 }
 
 .fab, .fa-brands{
