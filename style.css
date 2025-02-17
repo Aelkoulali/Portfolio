@@ -42,6 +42,14 @@ ul {
     margin-right: 10px;
 }
 
+h1 {
+    color: #1D3461;
+}
+
+.col-md-6 , p, h4{
+color: #082b72;
+}
+
 /* spacing on all sections */
 /* #À Propos de Moi, #services, #portfolio, #contact {
     margin-top: 4rem;
