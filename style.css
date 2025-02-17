@@ -1,6 +1,6 @@
-/* display background color black on navbar scroll */
+/* display background color navy on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color:navy;
+    background-color:#1D3461;
 }
 
 /* hero background image */
@@ -99,7 +99,7 @@ ul {
 }
 
 .fa-linkedin:hover,.fa-codepen:hover,.fa-github:hover, .fa-x-twitter:hover {
-    color: black;
+    color:#8B9EB7;
 }
 
 .fab, .fa-brands{
