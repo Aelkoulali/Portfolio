@@ -82,19 +82,20 @@ ul {
 }
 
 .servicesText:hover {
-    border: 2px solid #CB4154 ;
+    border: 3px solid #CB4154 ;
 }
 
 /* card*/
 .card:hover{
     transform: scale(1.05);
     cursor: pointer;
-    border : 2px solid #CB4154;
+    border : 3px solid #CB4154;
 }
 
 .text-center {
     color :#1D3461;
 }
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
