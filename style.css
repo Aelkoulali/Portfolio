@@ -51,10 +51,10 @@ color: #082b72;
 }
 
 /* spacing on all sections */
-/* #À Propos de Moi, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
+#about, #services, #projets, #contact {
+    margin-top: 50px;
+    padding-top: 100px;
+} 
 
 .card-img-top {
     height: 9.4rem;
