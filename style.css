@@ -1,6 +1,6 @@
-/* display background color navy on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color:#1D3461;
+/* display background color primary navbar scroll */
+.navbar-togller-icon{
+    color: #0d6efd;
 }
 
 /* hero background image */
@@ -14,9 +14,11 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-weight: bold;
 }
 .hero_desc {
     font-size: 3rem;
+    font-weight: bold;
 }
 .hero-text {
     text-align: center;
