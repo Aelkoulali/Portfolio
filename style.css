@@ -7,7 +7,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/bgimage.jpg');
+    background: url('images/Hero/bgimage.jpg');
     background-size:cover;
     position:relative;
 }
