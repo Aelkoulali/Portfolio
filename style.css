@@ -17,10 +17,12 @@
 .hero_title {
     font-size: 4.5rem;
     font-weight: bold;
+    color:#007ba7; 
 }
 .hero_desc {
     font-size: 3rem;
     font-weight: bold;
+    color:#007ba7;
 }
 .hero-text {
     text-align: center;
@@ -28,7 +30,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color:#007ba7;
 }
 
 .imageAboutPage{
