@@ -12,8 +12,7 @@
     position:relative;
 }
 
-
-/* text css above hero image*/
+/* text css above hero image */
 .hero_title {
     font-size: 4.5rem;
     font-weight: bold;
@@ -99,7 +98,7 @@ color: #082b72;
     border: 3px solid #CB4154 ;
 }
 
-/* card*/
+/* card */
 .card:hover{
     transform: scale(1.05);
     cursor: pointer;
