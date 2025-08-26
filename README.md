@@ -1,5 +1,6 @@
 # 🗂️ Web Developer Portfolio 🧑‍💻
 ## ➡️ Key Concepts :
-## ✅ Bootsrap Website </>
+## ✅ Portfolio
+## ✅ Bootsrap
 ## ✅ HTML CSS JavaScript
 
