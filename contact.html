@@ -44,46 +44,41 @@
         </div>
     </nav>
     <!-- navbar -->
-    <!-- about section -->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-left"><i class="fa-solid fa-address-card" style="color: #0d6efd"></i>À Propos de Moi</h1>
+    <!-- contact section -->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-left"><i class="fa-solid fa-envelope" style="color: #0d6efd"></i>Parlons de votre Projet</h1>
+            <p>Vous avez une question ? vous avez un projet ? N'hésitez pas à me contacter.</p>
             <div class="row mt-4">
-                <div class="col-lg-4">
-                    <img src="images/About/About.jpg" class= "imageAboutPage" alt=" Profile picture">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=pau&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
                 </div>
-                <div class="col-lg-8">
-                    <p> Développeur web, passionné par les nouvelles technologies et l'univers du numérique, je maîtrise les différentes étapes techniques de la création d’un site web ainsi que la compréhension des besoins utilisateurs. 
-                        <br>Autonome, Curieux, Organisé, je souhaite mettre à profit mes qualités de développeur au service d'une entreprise à la culture innovante et audacieuse.
-                        <br>Mes compétences:
-
-                    </p>
-                    <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li><i class="fa-solid fa-laptop-code" style="color: #0d6efd"></i>JavaScript Vue.js</li>
-                                <li><i class="fa-solid fa-laptop-code" style="color: #0d6efd"></i>Référencement Naturel SEO</li>
-                                <li><i class="fa-solid fa-laptop-code" style="color: #0d6efd"></i>Méthode Agile</li>
-                            </ul>
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Nom">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Sujet">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Détail du Projet"></textarea>
                         </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li><i class="fa-solid fa-laptop-code" style="color: #0d6efd"></i>Node.js Express.js</li>
-                                <li><i class="fa-solid fa-laptop-code" style="color: #0d6efd"></i>MySQL MongoDB</li>
-                                <li><i class="fa-solid fa-laptop-code" style="color: #0d6efd"></i>HTML CSS Sass Bootstrap 5</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <p> La formation Développeur web m'a permis de renforcer la maitrise des langages de programmation et Frameworks, comprendre les contraintes du projet, concevoir et développer un site ainsi que solutionner les problèmes.
-                        <br>Face aux aléas et nécessités de cette profession, j’ai toujours été capable d’y répondre en toute autonomie.
-                        <br> Motivation, rigueur et écoute sont les maîtres mots de mon comportement professionnel.           
-                        </p>
-                    </div>
+                    </form>
+                    <a href="mailto:abdellah.elkoulali@gmx.fr" button type="button" class="btn btn-primary mt-3"><i class="fa-solid fa-paper-plane"></i>Envoi</button></a>
+                    <a href="Curriculum Vitae.pdf" button type ="button" class="btn btn-primary mt-3"><i class="fa fa-download"></i>Télécharger mon CV</button></a>                    
                 </div>
             </div>
+        </div>
     </section>
-    <!-- about section -->
+    <!-- contact section -->
     <!-- footer section -->
     <footer id="footer">
         <div class="container-fluid bg-dark text-center">
