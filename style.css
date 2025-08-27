@@ -65,10 +65,11 @@ color: #082b72;
 }
 
 /* about section image css */
-.imageAboutPage {
+.card-img-top {
+    height: 250px;
+    object-fit: cover; 
     width: 100%;
 }
-
 /* services section css */
 .servicesText.card {
     height: 17.5rem;
