@@ -94,11 +94,7 @@ color: #082b72;
 }
 
 /* card */
-.card:hover{
-    transform: scale(1.05);
-    cursor: pointer;
-    border : 3px solid #CB4154;
-}
+
 
 .text-center {
     color :#1D3461;
