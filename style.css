@@ -88,14 +88,6 @@ color: #082b72;
     text-align: center;
 }
 
-.card:hover .servicesIcon {
-    color: #CB4154;
-}
-
-.servicesText:hover {
-    border: 3px solid #CB4154 ;
-}
-
 /* projects section */
 
 /* Footer Section */
