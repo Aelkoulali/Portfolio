@@ -45,6 +45,7 @@ ul {
 
 .fa-solid, .fa {
     margin-right: 10px;
+   
 }
 
 
@@ -91,4 +92,5 @@ footer {
 
   .social-icons a {
     font-size: 1.25rem;
+    color: #fff;
   }
