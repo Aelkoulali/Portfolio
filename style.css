@@ -60,7 +60,7 @@ ul {
 
 /* about section image css */
 .card-img-top {
-    height: 250px;
+    height: 220px;
     object-fit: cover; 
     width: 100%;
 }
