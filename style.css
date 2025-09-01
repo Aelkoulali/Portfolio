@@ -38,7 +38,7 @@
 }
 /* about section image css */
 .card-img-top {
-    height: 220px;
+    height: 250px;
     object-fit: cover; 
     width: 100%;
 }
