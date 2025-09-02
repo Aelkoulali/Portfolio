@@ -41,8 +41,16 @@
     width: 100%;
     object-fit:contain ; 
     width: 100%;
+    background-color:#a0d2eb;
 }
 
+.card-body {
+    background-color:#e5eaf5;
+}
+
+.card-footer {
+    background-color:#d0bdf4;
+}
 /* Footer Section */
 footer {
     background-color:#0d6efd;
