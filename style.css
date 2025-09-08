@@ -1,17 +1,22 @@
-/* display background color primary navbar scroll */
-.navbar-togller-icon{
-    color: #0d6efd;
+/* Navbar toggler icon (correct spelling) */
+.navbar-toggler-icon {
+    filter: invert(1); /* Makes the icon white */
 }
 
-/* hero background image */
-
+/* Transparent Navbar over Hero Section */
 .navbar.bg-transparent {
-    background: url('images/Home/Hero.jpg') no-repeat center center/cover !important;
-    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.25); /* slight dark tint */
+    backdrop-filter: blur(4px); /* blurred background behind navbar */
+    transition: background-color 0.3s ease;
 }
 
+/* Optional: Solid navbar on scroll (if JS is used) */
+.navbarScroll.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: none;
+}
 
-/* dark overlay for hero section */
+/* Dark overlay for hero section */
 .dark-overlay {
     position: absolute;
     top: 0;
@@ -19,8 +24,10 @@
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
-/* center text in hero section */
+
+/* Hero section centered content */
 .home-inner {
     height: 100%;
     display: flex;
@@ -31,6 +38,7 @@
     position: relative;
     z-index: 2;
 }
+
 /* about section image css */
 .card {
     border: none;
