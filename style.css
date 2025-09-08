@@ -10,11 +10,7 @@
     backdrop-filter: blur(4px);
 }
 
-.bgimage {
-    background-image: url('images/Home/Hero.jpg') no-repeat center center/cover;
-    height: 100vh;
-    position: relative;
-}
+
 /* dark overlay for hero section */
 .dark-overlay {
     position: absolute;
