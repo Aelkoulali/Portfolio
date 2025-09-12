@@ -45,28 +45,17 @@
     </nav>
     <!-- navbar -->
     <!-- main banner -->
-    <section id="home" class="bgimage text-white d-flex align-items-center" 
-         style="height: 100vh; background: url('images/Hero/bgimage.jpg') no-repeat center center/cover; position: relative;">
-    <!-- Dark overlay -->
-    <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.6); z-index: 1;"></div>
-    <!-- Content -->
-    <div class="container text-center position-relative z-2">
-        <h1 class="display-4 fw-bold">Bienvenue sur mon Portfolio</h1>
-        <p class="lead">Je suis <strong>Abdellah</strong>, Développeur Web</p>        
-        <!-- Logo -->
-        <div class="my-4">
-            <img src="images/Hero/logo.png" alt="Logo d'Abdellah" class="img-fluid" style="width: 150px;">
+    <section class="bgimage" id="home" style="height: 100vh; position: relative; background: url('images/Hero/bgimage.jpg') no-repeat center center/cover;">
+        <div class="dark-overlay">
+            <div class="home-inner">
+                <div class="container text-center">
+                    <h1 class="display-4" style="font-weight: 700; color: #fff;">Bienvenue sur mon Portfolio</h1>
+                    <p class="lead" style="font-size: 1.5rem;">Je suis Abdellah, Développeur Web</p>
+                    <a href="about.html"   class="btn btn-primary mt-3"><i class="fa fa-user"></i> À Propos de Moi</a>
+                    <a href="contact.html" class="btn btn-success mt-3"><i class="fa fa-envelope"></i> Contactez Moi</a>
+                </div>
+            </div>
         </div>        
-        <!-- CTA Buttons -->
-        <div class="d-flex justify-content-center gap-3 flex-wrap">
-            <a href="about.html" class="btn btn-primary btn-lg">
-                <i class="fa fa-user"></i> À Propos de Moi
-            </a>
-            <a href="contact.html" class="btn btn-outline-light btn-lg">
-                <i class="fa fa-envelope"></i> Contactez Moi
-            </a>
-        </div>
-    </div>
     </section>
     <!-- main banner -->
     <!-- load javascript after loading all html content -->
