@@ -23,7 +23,13 @@
 /* Optional: Solid navbar on scroll (if JS is used) */
 .navbarScroll.scrolled {
     background-color: rgba(0, 0, 0, 0.8) !important;
-    backdrop-filter: none;    
+    backdrop-filter: none;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    pointer-events: auto;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+    z-index: 10;
+    pointer-events: auto;    
 }
 
 /* Dark overlay for hero section */
@@ -39,6 +45,7 @@
     height: 100%;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 2s ease-in-out;    
 }
 
 /* Hero section centered content */
@@ -54,7 +61,7 @@
     flex-direction: column;
     padding: 0 1rem;  
     margin-bottom: 2rem;   
-    animation: fadeIn 2s ease-in-out;     
+    animation: fadeIn 2s ease-in-out;  
 }
 
 /* about section image css */
