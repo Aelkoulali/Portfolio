@@ -46,6 +46,25 @@
     transition: background-color 0.3s ease;
 }
 
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.05rem;
+    position: relative;
+    z-index: 1;    
+    transition: background-color 0.3s ease;  
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff !important;
+        text-decoration: none;  
+        border: 1px solid transparent;
+        padding: 5px 1px;
+        border-radius: 5px;
+    }
+}
+
 /* Dark overlay for hero section */
 .dark-overlay {
     position: absolute;
