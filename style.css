@@ -9,6 +9,20 @@
     z-index: 1;    
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+
+}
+
 /* Transparent Navbar over Hero Section */
 .navbar.bg-transparent {
     background-color: rgba(0, 0, 0, 0.25); /* slight dark tint */
