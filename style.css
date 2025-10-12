@@ -42,7 +42,7 @@
     border: 1px solid transparent;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.1); /* slight background for better visibility */
+    background-color: blue; /* slight background for better visibility */
     transition: background-color 0.3s ease;
 }
 
@@ -56,7 +56,7 @@
     z-index: 1;    
     transition: background-color 0.3s ease;  
     &:hover {
-        background-color: rgba(255, 255, 255, 0.2);
+        background-color:blue;
         color: #fff !important;
         text-decoration: none;  
         border: 1px solid transparent;
