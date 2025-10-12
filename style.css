@@ -6,7 +6,7 @@
     padding: 5px;
     transition: background-color 0.3s ease;
     border: 1px solid transparent;
-    z-index: 1;    
+    z-index: 1;            
 }
 
 .navbar-collapse {
@@ -21,7 +21,7 @@
     margin-top: 10px;
     margin-bottom: 10px;  
     position: relative;
-    z-index: 1;
+    z-index: 1;    
 }
 
 /* Transparent Navbar over Hero Section */
@@ -33,6 +33,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
+    top: 10px; /* slight gap from top */
+    left: 0;
+    right: 0;
+    z-index: 10; /* ensure it stays above other content */
 }
 
 /* Optional: Solid navbar on scroll (if JS is used) */
@@ -78,7 +82,11 @@
         border: 1px solid transparent;
         padding: 5px 1px;
         border-radius: 5px;
+        padding: 5px 10px;
+        background-color: blue; /* slight background for better visibility */
+        transition: background-color 0.3s ease;
     }
+
 }
 
 /* Dark overlay for hero section */
