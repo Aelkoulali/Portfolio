@@ -1,3 +1,14 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;    
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+
+}
+
 /* Navbar toggler icon (correct spelling) */
 .navbar-toggler-icon {
     filter: invert(1); /* Makes the icon white */
