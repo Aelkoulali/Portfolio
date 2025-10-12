@@ -20,7 +20,8 @@
     margin-right: 15px;
     margin-top: 10px;
     margin-bottom: 10px;  
-
+    position: relative;
+    z-index: 1;
 }
 
 /* Transparent Navbar over Hero Section */
