@@ -39,18 +39,7 @@
     z-index: 10; /* ensure it stays above other content */
 }
 
-/* Optional: Solid navbar on scroll (if JS is used) */
-.navbarScroll.scrolled {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    backdrop-filter: none;  
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
-    pointer-events: auto;
-    transition: background-color 0.3s ease;
-    border-radius: 15px;
-    z-index: 10;
-    pointer-events: auto;    
-}
-*.navbar-brand {
+.navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff !important;
