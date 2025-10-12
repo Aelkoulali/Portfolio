@@ -2,7 +2,7 @@
 .navbar-toggler-icon {
     filter: invert(1); /* Makes the icon white */
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.1); /* slight background for better visibility */
+    background-color: blue; /* slight background for better visibility */
     padding: 5px;
     transition: background-color 0.3s ease;
     border: 1px solid transparent;
