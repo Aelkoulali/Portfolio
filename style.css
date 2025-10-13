@@ -61,7 +61,7 @@ body {
     border: 1px solid transparent;
     padding: 5px 10px;
     border-radius: 5px;
-    background-color: blue; /* slight background for better visibility */
+    background-color: blue; 
     transition: background-color 0.3s ease;
 }
 
@@ -80,11 +80,9 @@ body {
         color: #fff !important;
         text-decoration: none;  
         border: 1px solid transparent;
-        padding: 5px 1px;
         border-radius: 5px;
-        padding: 5px 10px;
-        background-color: blue; /* slight background for better visibility */
-        transition: background-color 0.3s ease;
+        padding: 5px 10px;        
+        background-color: blue; 
     }
 
 }
