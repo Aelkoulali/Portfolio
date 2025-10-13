@@ -54,8 +54,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fff !important;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);    
     letter-spacing: 0.05rem;
     z-index: 1;  
     border: 1px solid transparent;
@@ -85,7 +84,7 @@ body {
         border-radius: 5px;
         padding: 5px 10px;                
         background-color: blue; 
-        transition: background-color 0.3s ease;        
+        transition: background-color 0.3s ease;                
     }
 
 }
@@ -122,6 +121,12 @@ body {
     animation: fadeIn 2s ease-in-out;  
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
 /* about section image css */
 .card {
     border: none;
@@ -146,7 +151,6 @@ body {
     height: 250px;
     width: 100%;
     object-fit:contain ; 
-    width: 100%;
     background-color:#a0d3eb; 
 }   
 
