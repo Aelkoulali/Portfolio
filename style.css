@@ -75,14 +75,17 @@ body {
     z-index: 1;    
     transition: background-color 0.3s ease;
     margin-right: 10px;  
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 10px;     
     &:hover {
-        background-color:blue;
         color: #fff !important;
         text-decoration: none;  
         border: 1px solid transparent;
         border-radius: 5px;
-        padding: 5px 10px;        
+        padding: 5px 10px;                
         background-color: blue; 
+        transition: background-color 0.3s ease;        
     }
 
 }
