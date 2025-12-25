@@ -2,5 +2,4 @@
 ## ➡️ Key Concepts :
 ## ✅ Portfolio
 ## ✅ Bootsrap
-## ✅ HTML CSS JavaScript
-
+## ✅ HTML & CSS
