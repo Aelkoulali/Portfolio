@@ -195,6 +195,7 @@ h1, h2 {
 
 .card-body {
     background-color:#a0d3eb;
+    height: 120px;
     text-align: center;
     padding: 1.5rem;
     color: #333;
