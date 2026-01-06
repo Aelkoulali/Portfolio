@@ -150,7 +150,7 @@ body {
 }
 
 /* Title H1 styles */
-h1 {
+h1, h2 {
     font-size: 2.5rem;
     font-weight: 700;
     background-color: #0d6efd;
