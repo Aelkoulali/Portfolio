@@ -149,6 +149,23 @@ body {
     color: #fff;
 }
 
+/* Title H1 styles */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 25px;
+    width: fit-content;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* about section image css */
 .card {
     border: none;
