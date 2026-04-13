@@ -128,7 +128,7 @@ body {
 
 /* Button to projects */
 .btn-projects {
-    background-color:#154e4b;
+    background-color: #4858b3;
     color: #fff;
     padding: 0.75rem 1.5rem;
     font-size: 1.25rem;
@@ -143,7 +143,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
 .btn-projects:hover {
-    background-color: #48B3AF;
+    background-color: #4858b3;
     transform: translateY(-5px);
     text-decoration: none;
     color: #fff;
