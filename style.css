@@ -37,8 +37,8 @@ body {
 
 /* Transparent Navbar over Hero Section */
 .navbar.bg-transparent {
-    background-color: rgba(0, 0, 0, 0.25); /* slight dark tint */
-    backdrop-filter: blur(4px); /* blurred background behind navbar */
+    background-color: rgba(0, 0, 0, 0.6); /* slight dark tint */
+    backdrop-filter: blur(6px); /* blurred background behind navbar */
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -75,8 +75,10 @@ body {
     margin-right: 10px;  
     border: 1px solid transparent;
     border-radius: 5px;
-    padding: 5px 10px;     
-    &:hover {
+    padding: 5px 10px; 
+}
+
+.nav-link:hover {
         color: #fff !important;
         text-decoration: none;  
         border: 1px solid transparent;
@@ -84,9 +86,8 @@ body {
         padding: 5px 10px;                
         background-color: blue; 
         transition: background-color 0.3s ease;                
-    }
-
 }
+
 
 /* Dark overlay for hero section */
 .dark-overlay {
@@ -95,7 +96,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
     width: 100%;
     height: 100%;
