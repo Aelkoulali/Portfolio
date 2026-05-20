@@ -64,7 +64,8 @@ body {
 }
 
 .nav-link {
-    color: #ffffff !important;
+    color: #fff !important;
+    background-color: #000; 
     font-weight: bolder;
     transition: color 0.3s ease;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
