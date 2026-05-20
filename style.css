@@ -12,9 +12,9 @@ body {
 /* Navbar toggler icon (correct spelling) */
 .navbar-toggler-icon {
     filter: invert(1); /* Makes the icon white */
-    border-radius: 5px;
-    background-color: blue; /* slight background for better visibility */
+    background-color: rgba(0, 0, 255, 0.8); /* semi-transparent blue for contrast */
     padding: 5px;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
     border: 1px solid transparent;
     z-index: 1;            
