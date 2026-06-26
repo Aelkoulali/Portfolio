@@ -1,261 +1,273 @@
 body {
-    height: 100%;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    scroll-behavior: smooth;    
-    color: #333;
-    line-height: 1.6;
-    font-size: 16px;
-
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 /* Navbar toggler icon (correct spelling) */
 .navbar-toggler-icon {
-    filter: invert(1); /* Makes the icon white */
-    background-color: rgba(0, 0, 255, 0.8); /* semi-transparent blue for contrast */
-    padding: 5px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    border: 1px solid transparent;
-    z-index: 1;            
+  filter: invert(1); /* Makes the icon white */
+  background-color: rgba(
+    0,
+    0,
+    255,
+    0.8
+  ); /* semi-transparent blue for contrast */
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: 1px solid transparent;
+  z-index: 1;
 }
 
 .navbar-collapse {
-    justify-content: flex-end;
-    align-items: center;
-    text-align: center;
-    background-color: transparent;
-    transition: background-color 0.5s ease;
-    padding: 10px;
-    border-radius: 8px;
-    margin-right: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;  
-    position: relative;
-    z-index: 1;    
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 /* Transparent Navbar over Hero Section */
 .navbar.bg-transparent {
-    background-color: #000; /* full black ensures contrast */
-    backdrop-filter: blur(6px);
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: fixed;
-    width: 100%;
-    top: 10px; /* slight gap from top */
-    left: 0;
-    right: 0;
-    z-index: 10; /* ensure it stays above other content */
+  background-color: #000; /* full black ensures contrast */
+  backdrop-filter: blur(6px);
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 10px; /* slight gap from top */
+  left: 0;
+  right: 0;
+  z-index: 10; /* ensure it stays above other content */
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ffffff !important;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);    
-    letter-spacing: 0.05rem;
-    z-index: 1;  
-    border: 1px solid transparent;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: blue; 
-    transition: background-color 0.3s ease;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.05rem;
+  z-index: 1;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: blue;
+  transition: background-color 0.3s ease;
 }
 
 .nav-link {
-    color: #fff !important;
-     background-color: rgba(0,0,0,0.9);
-    font-weight: bolder;
-    transition: color 0.3s ease;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0.05rem;
-    position: relative;
-    z-index: 1;    
-    transition: background-color 0.3s ease;
-    margin-right: 10px;  
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 5px 10px; 
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-weight: bolder;
+  transition: color 0.3s ease;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.05rem;
+  position: relative;
+  z-index: 1;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
 .nav-link:hover {
-    color: #fff !important;
-    text-decoration: none;  
-    border: 1px solid transparent;
-    border-radius: 5px;
-    padding: 5px 10px;                
-    background-color: #0d6efd; 
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5); /* fixed */
-    transition: background-color 0.3s ease;                
+  color: #fff !important;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #0d6efd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* fixed */
+  transition: background-color 0.3s ease;
 }
-
 
 /* Dark overlay for hero section */
 .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 2s ease-in-out;    
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s ease-in-out;
 }
 
 /* Hero section centered content */
 .home-inner {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    flex-direction: column;
-    padding: 0 1rem;  
-    margin-bottom: 2rem;   
-    animation: fadeIn 2s ease-in-out;  
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  flex-direction: column;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 2s ease-in-out;
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* Button to projects */
 .btn-projects {
-    background-color: #4858b3;
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.25rem;
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 1.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-weight: 700;
-    letter-spacing: 0.05rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+  background-color: #4858b3;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .btn-projects:hover {
-    background-color: #0d6efd;
-    transform: translateY(-5px);
-    text-decoration: none;
-    color: #fff;
+  background-color: #0d6efd;
+  transform: translateY(-5px);
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Title H1 H2styles */
-h1, h2 {
-    font-size: 2.5rem;
-    font-weight: 700;    
-    color: #0170f0;
-    padding: 10px 15px;
-    margin: auto;
-    border: none;
-    border-radius: 25px;
-    width: fit-content;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    letter-spacing: 0.1rem;
-    margin-bottom: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1,
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0170f0;
+  padding: 10px 15px;
+  margin: auto;
+  border: none;
+  border-radius: 25px;
+  width: fit-content;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* about section image css */
 .card {
-    border: none;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    margin-bottom: 2rem;
-    background-color: #f8f9fa;
-    position: relative;
-    z-index: 1;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 2rem;
+  background-color: #f8f9fa;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card-img-top {
-    height: 150px;
-    width: 100%;
-    object-fit:contain ; 
-    background-color:#a0d3eb; 
-}   
+  height: 150px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #a0d3eb;
+}
 
 .card-body {
-    background-color:#a0d3eb;
-    height: 120px;
-    text-align: center;
-    padding: 1.5rem;
-    color: #333;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.05rem;
-    position: relative;
-    z-index: 1;  
-    flex-grow: 1;  
+  background-color: #a0d3eb;
+  height: 120px;
+  text-align: center;
+  padding: 1.5rem;
+  color: #333;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  position: relative;
+  z-index: 1;
+  flex-grow: 1;
 }
 
 /* Footer Section */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 3rem 0;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    margin-top: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 0.05rem;
-    line-height: 1.5;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
-  }
+  background-color: #333;
+  color: #fff;
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  line-height: 1.5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-  .social-icons a {
-    font-size: 1.25rem;
-    color: #fff;
-    margin: 0 0.5rem;
-    transition: color 0.3s ease;
-    text-align: center;
-    position: relative;
-    z-index: 1;   
-    display: inline-block; 
-    padding: 0.5rem;
-    border-radius: 50%;
-    background-color: #555;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 40px;
-    height: 40px;
-    line-height: 30px;
-    vertical-align: middle;
-    font-size: 1.5rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0.25rem;    
-  }
+.social-icons a {
+  font-size: 1.25rem;
+  color: #fff;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #555;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 1.5rem;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.25rem;
+}
 
-  .social-icons a:hover {
-    color: #007bff;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transform: translateY(-2px);    
-  }
+.social-icons a:hover {
+  color: #007bff;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
