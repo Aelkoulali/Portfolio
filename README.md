@@ -1,5 +1,5 @@
 # 🗂️ Web Developer Portfolio 🧑‍💻
-Simple Portofolio using HTML Bootsrap
+Simple Web Developper Portofolio 
 ## ➡️ Key Concepts :
 ## ✅ Portfolio Web Site
 ## ✅ Bootsrap
