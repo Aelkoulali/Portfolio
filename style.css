@@ -240,7 +240,7 @@ footer {
 
 .social-icons a {
   font-size: 1.25rem;
-  color: #fff;
+  color: #ffffff;
   margin: 0 0.5rem;
   transition: color 0.3s ease;
   text-align: center;
@@ -249,7 +249,7 @@ footer {
   display: inline-block;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #28cce9;
+  background-color: #08d1f5;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 40px;
   height: 40px;
