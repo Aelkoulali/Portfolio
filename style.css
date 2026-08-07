@@ -228,6 +228,8 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.05rem;  
   border: 1px solid #0a0a0a;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 /* Footer Section */
 footer {
