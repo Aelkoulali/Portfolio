@@ -230,6 +230,7 @@ h2 {
   border: 1px solid #0a0a0a;
   border-radius: 5px;
   padding: 1px 2px;
+  widtth: fit-content;
 }
 /* Footer Section */
 footer {
