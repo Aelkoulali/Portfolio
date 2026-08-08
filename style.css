@@ -219,8 +219,7 @@ h2 {
   flex-grow: 1;
 }
 
-.card-text {
-  
+.card-text {  
   display: inline-flex;
   align-items: center;
   height: 32px;      /* pick a value you like */
@@ -239,6 +238,7 @@ h2 {
   width: fit-content;
   background-color: #08d1f5;
 }
+
 /* Footer Section */
 footer {
   background-image: url("images/Hero/Hero_Img.jpeg");
