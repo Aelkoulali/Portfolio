@@ -245,30 +245,37 @@ h2 {
 }
 
 /* Skills Section */
-/* cards: same size + same rounding */
-#skills .col-md-4{
-  display: flex; /* lets card stretch */
-}
-
+/* Skills cards override (small equal cards) */
 #skills .card{
-  width: 100%;
-  height: 170px;           /* same height for every card (adjust if needed) */
-  border-radius: 18px;    /* same rounding */
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 70px;              /* small */
+  margin-bottom: 0;         /* remove extra spacing */
+  background-color: transparent;
+  box-shadow: none;         /* optional: keep/remove */
+  transition: none;         /* optional */
+  flex-direction: column;
 }
 
-/* center icon + text together */
 #skills .card-body{
-  margin: 0;
+  background-color: #a0d3eb; /* keep your style */
+  height: 100%;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
+
+#skills .card-description{
+  margin: 0;
+  line-height: 1;
+  font-size: 14px;
+}
+
+/* make columns stretch so heights match */
+#skills .row.g-4 > [class*="col-"]{
+  display: flex;
+}
+
 /* Footer Section */
 footer {
   background-image: url("images/Hero/Hero_Img.jpeg");
