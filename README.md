@@ -13,6 +13,6 @@ This project is a multi-page web developer portfolio built with HTML and Bootstr
 - contact.html
 
 ## ▶️ How to Run
-- Open index.html in your browser.
+- Open `index.html` in your browser.
 
 
