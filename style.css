@@ -244,42 +244,6 @@ h2 {
   background-color: #08d1f5;
 }
 
-/* Skills Section */
-/* Make skill cards fully rounded (pill/circle) */
-#skills .card{
-  width: 70px;              /* same as height */
-  height: 70px;
-  border-radius: 50% !important; /* full circle */
-  margin: 0 auto;          /* center inside column */
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Fill the circle */
-#skills .card-body{
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  background: #a0d3eb;
-}
-
-/* Reduce text so it fits a circle */
-#skills .card-description{
-  display: none; /* circle looks better without the label */
-}
-
-/* If you want icon only:
-#skills .card-body i{ font-size: 28px; }
-*/
 
 /* Footer Section */
 footer {
