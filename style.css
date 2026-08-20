@@ -228,7 +228,7 @@ h2 {
 .card-text {
   display: inline-flex;
   align-items: center;
-  height: 32px; /* pick a value you like */
+  height: 20px; /* pick a value you like */
   margin-top: 20px;
   line-height: 1; /* prevents extra line box height */
   font-size: 1rem;
