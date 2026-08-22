@@ -97,6 +97,7 @@ body {
 }
 
 /* Dark overlay for hero section */
+
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -112,6 +113,7 @@ body {
 }
 
 /* Hero section centered content */
+
 .home-inner {
   height: 100%;
   display: flex;
