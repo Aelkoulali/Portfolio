@@ -9,7 +9,6 @@ body {
 }
 
 /* Navbar toggler icon (correct spelling) */
-
 .navbar-toggler-icon {
   filter: invert(1); /* Makes the icon white */
   background-color: rgba(
@@ -41,7 +40,6 @@ body {
 }
 
 /* Transparent Navbar over Hero Section */
-
 .navbar.bg-transparent {
   background-color: #000; /* full black ensures contrast */
   backdrop-filter: blur(6px);
@@ -97,7 +95,6 @@ body {
 }
 
 /* Dark overlay for hero section */
-
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -113,7 +110,6 @@ body {
 }
 
 /* Hero section centered content */
-
 .home-inner {
   height: 100%;
   display: flex;
