@@ -225,7 +225,7 @@ h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card-text {
+.card-text{
   display: inline-flex;
   align-items: center;
   height: 20px; /* pick a value you like */
