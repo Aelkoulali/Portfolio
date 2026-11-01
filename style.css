@@ -40,7 +40,7 @@ body {
 
 /* Transparent Navbar over Hero Section */
 .navbar.bg-transparent {
-  background-color: #000; /* full black ensures contrast */
+  background-color: #a7c7e7; /* semi-transparent blue */
   backdrop-filter: blur(6px);
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
