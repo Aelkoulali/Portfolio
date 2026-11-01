@@ -78,7 +78,6 @@ body {
   transition: background-color 0.3s ease;
   margin-right: 10px;
   border: 1px solid transparent;
-  border-radius: 5px;
   padding: 5px 10px;
 }
 
