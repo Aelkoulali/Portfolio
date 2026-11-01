@@ -61,8 +61,7 @@ body {
   letter-spacing: 0.05rem;
   z-index: 1;
   border: 1px solid transparent;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 5px 10px;  
   background-color: blue;
   transition: background-color 0.3s ease;
 }
