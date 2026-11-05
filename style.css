@@ -33,13 +33,13 @@ body {
 
 /* Transparent Navbar over Hero Section */
 .navbar.bg-transparent {
-  background-color: #a7c7e7; /* semi-transparent blue */
+  background-color: #a7c7e7;
   backdrop-filter: blur(6px);
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: fixed;
   width: 100%;
-  top: 10px; /* slight gap from top */
+  top: 10px;
   left: 0;
   right: 0;
   z-index: 10; /* ensure it stays above other content */
